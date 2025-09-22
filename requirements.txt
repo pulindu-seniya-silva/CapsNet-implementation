@@ -1,0 +1,12 @@
+# --- Core runtime ---
+numpy>=1.24
+pillow>=10.0
+streamlit>=1.37
+
+# --- Option A: TensorFlow 2.14 (bundled tf.keras, matches your Colab notebook) ---
+tensorflow==2.14.*
+
+# --- Option B: Newer stack (Keras 3 + TensorFlow backend) ---
+# Uncomment these two lines and comment out the TF 2.14 line above if you want the new setup
+# keras>=3.0.0
+# tensorflow>=2.15.0
